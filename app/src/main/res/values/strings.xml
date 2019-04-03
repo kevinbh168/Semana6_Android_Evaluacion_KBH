@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Semana6_Eva</string>
+    <string name="Especialidad">SYSTEMS \nENGINEER</string>
+    <string name="nombre_y_apellidos">NAME AND SURNAME</string>
+    <string name="telefono">999 999 999</string>
+    <string name="numCell">CELLPHONE</string>
+    <string name="dni">DNI</string>
+</resources>

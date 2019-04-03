@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Semana6_Eva</string>
+    <string name="Especialidad">INGENIERO DE SISTEMAS</string>
+    <string name="nombre_y_apellidos">NOMBRE Y APELLIDOS</string>
+    <string name="telefono">999 999 999</string>
+    <string name="numCell">CELULAR</string>
+    <string name="dni">DNI</string>
+</resources>

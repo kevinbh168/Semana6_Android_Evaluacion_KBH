@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:background="@drawable/fondo2">
+        <ImageView
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="105dp"
+            android:layout_width="400dp"
+            android:layout_height="100dp"
+            android:src="@drawable/tecsup"
+            android:scaleType="fitXY"
+            android:layout_alignParentStart="true"
+            />
+        <ImageView
+            android:id="@+id/perfilId"
+            android:layout_width="360dp"
+            android:layout_height="250dp"
+            android:layout_centerInParent="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/foto_perfil"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/perfilId"
+            android:layout_alignParentBottom="true"
+            android:layout_margin="19dp"
+            android:paddingTop="3dp"
+            android:text="@string/Especialidad"
+            android:textAlignment="center"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:textColor="@color/colorWhite"
+            android:shadowColor="#000000"
+            android:shadowRadius="3"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:background="@color/colorGrayBlue">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nombre_y_apellidos"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="LIONEL ANDRES \n MESSI CUCCITILLINI"
+            android:textSize="30dp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dni"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="78451289"
+            android:textSize="35dp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/numCell"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:textAlignment="center"
+            android:layout_marginTop="20dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/telefono"
+            android:textSize="35dp"
+            android:textColor="@color/colorBlack"
+            android:textAlignment="center"/>
+        <ImageView
+            android:layout_width="380dp"
+            android:layout_height="125dp"
+            android:src="@drawable/cod_barras"
+            android:scaleType="fitXY"
+            android:layout_centerHorizontal="true"
+            android:layout_marginHorizontal="110dp" />
+    </LinearLayout>
+</LinearLayout>
